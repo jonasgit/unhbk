@@ -1,5 +1,7 @@
 module mozoft.com/unhbk
 
-go 1.17
+go 1.23.0
 
-require golang.org/x/text v0.12.0 // indirect
+toolchain go1.24.1
+
+require golang.org/x/text v0.23.0
